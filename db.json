@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "QuantumGlide Wireless Mouse",
+      "description": "Ergonomic 2.4GHz wireless gaming mouse with 26,000 DPI optical sensor, customizable RGB lighting, and up to 80 hours of battery life.",
+      "price": 70.99,
+      "category": "Electronics",
+      "inStock": true,
+      "inventory": 45,
+      "rating": 4.7,
+      "tags": ["gaming", "wireless", "peripherals"],
+      "image": "https://unsplash.com"
+    },
+    {
+      "id": "2",
+      "title": "ApexFit Smartwatch Series 5",
+      "description": "Advanced health tracker featuring continuous heart rate tracking, blood oxygen monitoring, built-in GPS, and a vibrant AMOLED display.",
+      "price": 199.99,
+      "category": "Wearables",
+      "inStock": true,
+      "inventory": 12,
+      "rating": 4.5,
+      "tags": ["fitness", "smartwatch", "gadgets"],
+      "image": "https://unsplash.com"
+    },
+    {
+      "id": "3",
+      "title": "HydroPeak Insulated Flask",
+      "description": "Double-wall vacuum insulated stainless steel water bottle. Keeps beverages ice-cold for up to 24 hours or steaming hot for 12 hours.",
+      "price": 34.50,
+      "category": "Home & Outdoor",
+      "inStock": true,
+      "inventory": 120,
+      "rating": 4.9,
+      "tags": ["eco-friendly", "fitness", "travel"],
+      "image": "https://unsplash.com"
+    },
+    {
+      "id": "4",
+      "title": "StudioSound ANC Headphones",
+      "description": "Premium over-ear headphones with Hybrid Active Noise Cancellation, high-resolution audio drivers, and comfortable memory foam earcups.",
+      "price": 249.00,
+      "category": "Audio",
+      "inStock": false,
+      "inventory": 0,
+      "rating": 4.2,
+      "tags": ["audio", "wireless", "noise-canceling"],
+      "image": "https://unsplash.com"
+    },
+    {
+      "id": "5",
+      "title": "Lumina RGB Mechanical Keyboard",
+      "description": "Compact 75% layout mechanical keyboard with hot-swappable linear switches, durable PBT keycaps, and pre-lubed stabilizers.",
+      "price": 115.00,
+      "category": "Electronics",
+      "inStock": true,
+      "inventory": 28,
+      "rating": 4.8,
+      "tags": ["gaming", "keyboard", "peripherals"],
+      "image": "https://unsplash.com"
+    }
+  ]
+}
