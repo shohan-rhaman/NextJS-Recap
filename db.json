@@ -60,5 +60,52 @@
       "tags": ["gaming", "keyboard", "peripherals"],
       "image": "https://unsplash.com"
     }
+  ],
+  "books": [
+    {
+    "id": 1,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "publishedYear": 1960,
+    "genre": "Fiction",
+    "isbn": "978-0061120084",
+    "description": "A profound coming-of-age story set in the American South, exploring the deeply rooted racial injustices and the loss of innocence through the eyes of young Scout Finch."
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "publishedYear": 1949,
+    "genre": "Dystopian",
+    "isbn": "978-0451524935",
+    "description": "A chilling dystopian novel that follows Winston Smith as he attempts to rebel against the omnipresent, oppressive surveillance state ruled by Big Brother."
+  },
+  {
+    "id": 3,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "publishedYear": 1925,
+    "genre": "Classic",
+    "isbn": "978-0743273565",
+    "description": "Set during the roaring twenties, this story details the tragic critique of the American Dream through the mysterious millionaire Jay Gatsby and his obsession with Daisy Buchanan."
+  },
+  {
+    "id": 4,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "publishedYear": 1937,
+    "genre": "Fantasy",
+    "isbn": "978-0547928227",
+    "description": "The epic fantasy adventure of Bilbo Baggins, a quiet hobbit who is swept into a dangerous quest to reclaim a lost treasure guarded by the dragon Smaug."
+  },
+  {
+    "id": 5,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "publishedYear": 1813,
+    "genre": "Romance",
+    "isbn": "978-0141439518",
+    "description": "A classic romantic comedy of manners that explores the turbulent relationship between the strong-willed Elizabeth Bennet and the wealthy, aristocratic Mr. Darcy."
+  }
   ]
 }

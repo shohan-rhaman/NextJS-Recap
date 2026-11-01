@@ -1,7 +1,14 @@
 import ProductCard from "@/components/ProductCard";
 
 const getProducts = async ()=>{
-    const res = await fetch("http://localhost:5000/products");
+    // force-cache is a cache option used to explicitly store and reuse the response of a data request
+    // const res = await fetch("http://localhost:5000/products", {cache: "force-cache"});
+
+    // This data is fetched live from the API every time a user visits the page
+    // const res = await fetch("http://localhost:5000/products", {cache: "no-store"});
+
+    // Cache this request, but revalidate (refresh) it at most every 60 seconds
+    const res = await fetch("http://localhost:5000/products", {next: { revalidate: 60 }});
     return res.json();
 }
 
