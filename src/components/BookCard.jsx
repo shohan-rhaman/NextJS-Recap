@@ -1,14 +1,18 @@
+import Link from "next/link";
+
 const BookCard = ({book}) => {
-    const {title, description} = book;
+    const {id, title, description} = book;
   return (
     <div className="card bg-primary text-primary-content">
       <div className="card-body">
-        <h2 className="card-title">{title}</h2>
+        <h2 className="card-title">Title: {title}</h2>
         <p>
           {description}
         </p>
         <div className="card-actions justify-end">
-          <button className="btn">Buy Now</button>
+          <Link href={`/books/${id}`}>
+            <button className="btn">Buy Now</button>
+          </Link>
         </div>
       </div>
     </div>
